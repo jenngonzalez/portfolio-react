@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+// import { Route, Switch, Link } from 'react-router-dom';
+// import Nav from './Routes/Nav/Nav';
+// import AboutMe from './Routes/AboutMe/AboutMe';
+// import Projects from './Routes/Projects/Projects';
+// import Contact from './Routes/Contact/Contact';
+// import NotFound from './Routes/NotFound/NotFound';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(props) {
+    super(props)
+      this.state = {
+
+      }
+  }
+
+  render() {
+    return (
+      <div className='app'>
+        <p>Hello World!</p>
+      </div>
+    )
+  }
 }
-
-export default App;
